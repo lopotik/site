@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Книжный клуб</title>
+  <link rel="stylesheet" href="Сайт.css">
+  <script src="Сайт1.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <div class="container">
+      <p class="brand">Книжный клуб</p>
+      <nav aria-label="Основная навигация">
+        <a href="#topics">Темы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="intro">
+      <h1>Учимся грамотно выбирать книги</h1>
+      <p>Читаем, делимся мыслями и познаём людей.</p>
+      <a class="button" href="#topics">Посмотреть темы</a>
+         
+    </section>
+    <section id="topics">
+      <h2>Что мы изучаем</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Скорочтение</h3>
+          <p>Учимся читать быстрее вчерашнего нас.</p>
+        </article>
+        <article class="card">
+          <h3>Жанры книг</h3>
+          <p>Учимя разделять типы книг.</p>
+        </article>
+          <article class="card">
+          <h3>Понимать авторов</h3>
+          <p>Учимся погружаться и чувствовать персонажей.</p>
+        </article>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <h2>Как присоединиться</h2>
+      <p>Приходите в кабинет 501.</p>
+    </section>
+  </main>
+  <section id="join" class="join">
+      <h2>Знакомство с участником</h2>
+      <p>Учебная демонстрация. Данные никуда не отправляются.</p>
+      <label for="visitor-name">Ваше имя</label>
+      <input id="visitor-name" type="text" maxlength="40">
+      <button id="join-button" class="button" type="button">
+        Поприветствовать
+      </button>
+      <p id="message" role="status">Здесь появится сообщение.</p>
+    </section>
+  <footer class="container">
+    <p>Учебный проект. Автор: Горобец</p>
+  </footer>
+
+</body>
+</html>
